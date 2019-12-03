@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.index.css%>">
+    <link rel="icon" href="<%=require('../src/images/favicon_a_blue.png').default%>">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Тюренков Максим">
+    <meta name="description" content="Дипломная работа Яндекс практикум, специальность Фронтенд, группа № 4">
+    <meta name="keywords" content="yandex-praktikum, HTML, CSS, JS, Webpack">
+    <title>NewsAnalizer - Главная</title>
+</head>
+
+<body>
+    <div class="page">
+        <header class="header">
+                <p class="header__project-name">NewsAnalyzer</p>
+                <div class="header__menu">
+                    <a href="../src/index.html" target="_blank" class="header__menu header__menu_active">Главная</a>
+                    <a href="../src/pages/about.html" target="_blank" class="header__menu">О проекте</a>
+                </div>
+        </header>
+        <main class="content">
+            <section class="search">
+                <div class="search__cover"></div>
+                <div class="search-item">
+                    <h1 class="search-item__title">Что в мире творится?</h1>
+                    <p class="search-item__subtitle">Введите в поиске любую тему и узнайте, насколько популярной она была в новостях за прошедшую неделю.</p>
+                </div>
+                <div class="search-form">
+                    <input class="search-form__input" placeholder="Введите тему новости">
+                    <button class="search-form__button">Искать</button>
+                </div>
+                
+            <section class="author">
+                    <img src="<%=require('../src/images/author_image.jpg').default%>" alt="Фото автора" class="author__photo">
+                <div class="author-item">
+                    <h2 class="author-item__title">Об авторе</h2>
+                    <p class="author-item__text">Это блок с описаением автора проекта. Здесь следует указать, как вас зовут, чем вы занимаетесь, какими технологиями разработки владете.</p>
+                    <p class="author-item__text">Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь потенциальным заказчикам.</p>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+                <p class="footer__author">&copy; 2019 Тюренков Максим</p>
+                <div class="">
+                    <a href="../src/index.html" target="_blank" class="footer__links">Главная</a>
+                    <a href="../src/pages/about.html" target="_blank" class="footer__links">О проекте</a>
+                    <a href="https://praktikum.yandex.ru/" target="_blank" class="footer__links">Яндекс.Практикум</a>
+                </div>
+                <div class="footer__social-icon">
+                    <img src="<%=require('../src/images/social-icon_gh.svg').default%>" href="https://github.com/Mturin" alt="Иконка аккаунта в Github">
+                    <img src="<%=require('../src/images/social-icon_fb.svg').default%>" href="https://www.facebook.com/profile.php?id=100022727566053&ref=bookmarks" alt="Иконка аккаунта в Facebook">
+                </div>
+        </footer>
+    </div>
+<script src='<%=htmlWebpackPlugin.files.chunks.index.entry%>'></script>     
+</body>
+</html>
+
+<!-- <img src="<%=require('./../src/images/author_image.jpg')%>" alt="Фото автора" class="author__photo"> -->
+
