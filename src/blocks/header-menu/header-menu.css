@@ -1,0 +1,28 @@
+@import url(../header-menu/__name/header-menu__name.css);
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.125em;
+    font-weight: 700;
+    margin-right: 104px;       
+}
+
+@media all and (max-width: 1024px) {
+    .header-menu {
+        margin-right: 80px;  
+    }               
+}
+
+@media all and (max-width: 768px) {
+    .header-menu {
+        margin-right: 40px;  
+    }
+}
+
+@media all and (max-width: 500px) {
+    .header-menu {
+        font-size: 1em;
+        margin-right: 16px;  
+    }
+}

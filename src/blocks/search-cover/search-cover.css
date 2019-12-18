@@ -1,0 +1,27 @@
+.search-cover {
+    position: absolute;
+    background-image: url('~../../images/header_cover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 576px;
+    top: 0;
+    left: 0;
+    transform: translate(0, -165px);
+}
+
+@media all and (max-width: 1300px) {
+    .search-cover {
+        max-width: 100%;
+        background-image: url('../../images/header_cover_ipad.jpg');
+        background-size: cover;
+        min-height: 600px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .search-cover {
+        background-image: url('../../images/header_cover_iphone.jpg');
+        max-height: 536px;
+    }
+}

@@ -1,0 +1,9 @@
+.footer-social__icon {
+    width: 20px;
+    height: 20px;
+    padding-right: 28px;
+}
+
+.footer-social__icon:last-of-type {
+    padding: 0;
+}

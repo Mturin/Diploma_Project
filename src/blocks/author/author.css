@@ -1,0 +1,13 @@
+@import url('./__photo/author__photo.css');
+/* @import url('./author-item/author-item.css'); */
+
+.author {
+    display: flex;
+    color: #1A1B22
+}
+
+@media all and (max-width: 550px) {
+    .author {
+        flex-direction: column;
+    }
+}

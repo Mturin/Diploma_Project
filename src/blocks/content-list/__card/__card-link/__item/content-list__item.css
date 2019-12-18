@@ -1,0 +1,23 @@
+@import url('./__item-title/content-list__item-title.css');
+@import url('./__item-text/content-list__item-text.css');
+
+.content-list__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 195px;
+    margin: 0 24px;
+}
+
+@media all and (max-width: 1024px) {
+    .content-list__item {
+        height: 200px; 
+    }
+}
+
+@media all and (max-width: 500px) {
+    .content-list__item {
+        height: 160px;
+        margin-left: 20px;
+    }
+}

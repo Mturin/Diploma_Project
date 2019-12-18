@@ -1,0 +1,26 @@
+.header-menu__name {
+    padding-bottom: 22px;
+    margin-right: 38px;
+    color: #B6BCBF;
+}
+.header-menu__name:last-of-type {
+    margin-right: 0;
+}
+
+.header-menu__name_active {
+    border-bottom: 2px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+@media all and (max-width: 768px) {
+    .header-menu__name {
+        padding-bottom: 18px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .header-menu__name {
+        padding-bottom: 16px;
+        margin-right: 14px;
+    }
+}

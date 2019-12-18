@@ -1,0 +1,20 @@
+.author-item__title {
+    font-size: 44px;
+    line-height: 46px;
+    margin: 0 0 24px;
+    letter-spacing: 0.03em;
+    font-weight: normal;
+}
+
+@media all and (max-width: 1024px) {
+    .author-item__title {
+        font-size: 40px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .author-item__title {
+        font-size: 30px;
+        margin-bottom: 16px;
+    }
+}
