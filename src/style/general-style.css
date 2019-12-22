@@ -1,0 +1,37 @@
+body {
+    background-color:#E5E5E5;
+    background-size: cover;
+}
+a {
+    text-decoration: none;
+    transition: opacity 1s linear 0s;
+}
+a:hover {
+    cursor: url("~../images/cursor_hand.cur"), auto;
+    opacity: 0.9;
+}
+.page {
+    min-width: 320px;
+    max-width: 1440px;
+    background-color:#FFFFFF;
+    margin: 0 auto;
+    font-family: 'Roboto', 'Roboto Slab'; /*, 'sans-serif', 'Arial' */
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;  
+     outline: none;
+  }
+
+  /*-----Изменение цвета Placeholder----*/
+
+  ::-webkit-input-placeholder {color:#B6BCBF;}
+  ::-moz-placeholder          {color:#B6BCBF;}/* Firefox 19+ */
+  :-moz-placeholder           {color:#B6BCBF;}/* Firefox 18- */
+  :-ms-input-placeholder      {color:#B6BCBF;}

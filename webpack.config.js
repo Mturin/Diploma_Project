@@ -7,11 +7,11 @@ const isDev = process.env.NODE_ENV === 'development';
 const webpack = require('webpack');
 
 module.exports = {
-    // context: path.resolve(__dirname, 'src'),
+    context: path.resolve(__dirname, 'src'),
     entry: { 
-        index: './src/index.js',
-        about: './src/pages/about.js',
-        analytics: './src/pages/analytics.js'
+        index: './script/index.js',
+        about: './script/about.js',
+        analytics: './script/analytics.js'
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
@@ -21,7 +21,7 @@ module.exports = {
         rules: [{ 
             test: /\.js$/,
             use: { loader: "babel-loader" },
-            exclude: /node_modules/
+            exclude: /node_modules/,
         },
         {
             test: /\.css$/,
@@ -29,7 +29,7 @@ module.exports = {
         },
         {
             test: /\.(eot|ttf|woff|woff2)$/,
-            loader: 'file-loader?name=./vendor/[name].[ext]'
+            loader: 'file-loader?name=./vendor/fonts/[name].[ext]'
         },
         {
             test: /\.(ttf|eot|svg|png|jpg|gif|ico|cur)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
@@ -49,19 +49,19 @@ module.exports = {
         new HtmlWebpackPlugin({
             hash: true,
             inject: false,
-            template: 'src/index.html',
+            template: './pages/index.html',
             filename: 'index.html',
         }),
         new HtmlWebpackPlugin({
             hash: true,
             inject: false,
-            template: 'src/pages/about.html',
+            template: './pages/about.html',
             filename: 'about.html'
           }),
         new HtmlWebpackPlugin({
             hash: true,
             inject: false,
-            template: 'src/pages/analytics.html',
+            template: './pages/analytics.html',
             filename: 'analytics.html'
           }),
         new WebpackMd5Hash(),

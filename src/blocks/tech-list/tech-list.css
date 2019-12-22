@@ -1,0 +1,22 @@
+@import url('./__item/tech-list__item.css');
+
+.tech-list {
+    margin-left: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+@media all and (max-width: 1300px) {
+    .tech-list {
+        margin-top: 40px;
+        margin-left: 0;
+    }
+}
+
+@media all and (max-width: 715px) {
+    .tech-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, calc(100%/2));
+    }
+}

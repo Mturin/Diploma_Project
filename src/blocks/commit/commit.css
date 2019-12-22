@@ -1,0 +1,10 @@
+.commit {
+    background-color: #F5F6F7;
+    padding: 72px 0 60px;
+}
+
+@media all and (max-width: 768px) {
+    .commit {
+        padding-top: 32px;
+    }
+}

@@ -15,8 +15,14 @@
     }
 }
 
+@media all and (max-width: 768px) {
+    .search-content {
+        padding-top: 76px;
+    }
+}
+
 @media all and (max-width: 500px) {
     .search-content {
-        padding: 16px 16px 40px;
+        padding: 50px 16px;
     }
 }

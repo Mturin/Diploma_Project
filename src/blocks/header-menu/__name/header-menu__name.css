@@ -1,5 +1,5 @@
 .header-menu__name {
-    padding-bottom: 22px;
+    padding-bottom: 24px;
     margin-right: 38px;
     color: #B6BCBF;
 }
@@ -7,9 +7,18 @@
     margin-right: 0;
 }
 
+.header-menu__name:hover {
+    color: #1A1B22;
+}
+
 .header-menu__name_active {
     border-bottom: 2px solid #FFFFFF;
     color: #FFFFFF;
+}
+
+.header-menu__name_active-black {
+    border-bottom: 2px solid #1A1B22;
+    color: #1A1B22;
 }
 
 @media all and (max-width: 768px) {

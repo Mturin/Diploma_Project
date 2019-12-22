@@ -1,0 +1,18 @@
+.commit-text__subtitle {
+    font-weight: 500;
+    margin: 13px;
+    font-size: 18px;
+    color: #1A1B22;
+}
+
+@media all and (max-width: 768px) {
+    .commit-text__subtitle {
+        margin: 10px 0;
+    }
+}
+
+@media all and (max-width: 580px) {
+    .commit-text__subtitle {
+        display: none;
+    }
+}

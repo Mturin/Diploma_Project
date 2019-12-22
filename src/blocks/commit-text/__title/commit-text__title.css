@@ -1,0 +1,20 @@
+.commit-text__title {
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 46px;
+    margin: 0;
+}
+
+@media all and (max-width: 768px) {
+    .commit-text__title {
+        width: 50%;
+        font-size: 30px;
+        line-height: 34px;
+    }
+}
+
+@media all and (max-width: 580px) {
+    .commit-text__title {
+        width: 60%;
+    }
+}

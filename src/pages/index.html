@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.index.css%>">
-    <link rel="icon" href="<%=require('../src/images/favicon_a_blue.png').default%>">
+    <link rel="icon" href="<%=require('../images/favicon_a_blue.png').default%>">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,8 +17,8 @@
         <header class="header">
             <p class="header__project-name">NewsAnalyzer</p>
             <div class="header-menu">
-                <a href="<%=htmlWebpackPlugin.files.chunks.index.html%>" class="header-menu__name header-menu__name_active">Главная</a>
-                <a href="<%=htmlWebpackPlugin.files.chunks.about.html%>" target="_blank" class="header-menu__name">О проекте</a>
+                <a href="./index.html" class="header-menu__name header-menu__name_active">Главная</a>
+                <a href="./about.html" class="header-menu__name">О проекте</a>
             </div>
         </header>
         <main class="content">
@@ -30,7 +30,7 @@
                     <p class="search-item__subtitle">Введите в поиске любую тему и узнайте, насколько популярной она была в новостях за прошедшую неделю.</p>
                 </div>
                 <form class="search-form" name="search">
-                    <input type="text" name="input" class="search-form__input" placeholder="Введите тему новости">
+                    <input type="text" name="input" class="search-form__input" placeholder="Введите тему новости" required minlength="2" maxlength="30">
                     <button type="button" class="search-form__button">Искать</button>
                 </form>
             </section>
@@ -43,7 +43,7 @@
                 </div>
 
                 <div class="search-not-found">
-                    <img src="<%=require('../src/images/not-found_v1.svg').default%>" alt="Логотип - 'Ничего не найдено'" class="search-not-found__logo">
+                    <img src="<%=require('../images/not-found_v1.svg').default%>" alt="Логотип - 'Ничего не найдено'" class="search-not-found__logo">
                     <h3 class="search-not-found__title">Ничего не найдено</h3>
                     <p class="search-not-found__text">К сожалению по вашему запросу ничего не найдено.</p>
                 </div>
@@ -51,12 +51,12 @@
                 <div class="search-content">
                     <div class="search-content__text">
                         <h2 class="search-content__text-title">Результаты поиска</h2>
-                        <a href="<%=htmlWebpackPlugin.files.chunks.analytics.html%>" target="_blank" class="search-content__text-subtitle">Посмотреть аналитику <span>&#10095;</span></a>
+                        <a href="./analytics.html" class="search-content__text-subtitle">Посмотреть аналитику <span>&#10095;</span></a>
                     </div>
                     <div class="content-list">
                         <div class="content-list__card">
                             <a href="https://lenta.ru" target="_blank" class="content-list__card-link">
-                                <img src="<%=require('../src/images/defalt_images/image_08.jpg').default%>" alt="" class="content-list__card-image">
+                                <img src="<%=require('../images/defalt_images/image_08.jpg').default%>" alt="Картинка на тему новости" class="content-list__card-image">
                                 <p class="content-list__data">2 августа, 2019</p>
                                 <div class="content-list__item">
                                     <h4 class="content-list__item-title">Национальное достояние – парки</h4>
@@ -68,7 +68,7 @@
                                       
                         <div class="content-list__card">
                             <a href="https://meduza.io" target="_blank" class="content-list__card-link">
-                                <img src="<%=require('../src/images/defalt_images/image_04.jpg').default%>" alt="" class="content-list__card-image">
+                                <img src="<%=require('../images/defalt_images/image_04.jpg').default%>" alt="Картинка на тему новости" class="content-list__card-image">
                                 <p class="content-list__data">2 августа, 2019</p>
                                 <div class="content-list__item">
                                     <h4 class="content-list__item-title">Лесные огоньки: история одной фотографии</h4>
@@ -80,7 +80,7 @@
                                               
                         <div class="content-list__card">
                             <a href="https://ria.ru" target="_blank" class="content-list__card-link">
-                                <img src="<%=require('../src/images/defalt_images/image_07.jpg').default%>" alt="" class="content-list__card-image">
+                                <img src="<%=require('../images/defalt_images/image_07.jpg').default%>" alt="Картинка на тему новости" class="content-list__card-image">
                                 <p class="content-list__data">2 августа, 2019</p>
                                 <div class="content-list__item">
                                     <h4 class="content-list__item-title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h4>
@@ -92,7 +92,7 @@
                         
                         <div class="content-list__card">
                             <a href="https://lenta.ru" target="_blank" class="content-list__card-link">
-                                <img src="<%=require('../src/images/defalt_images/image_06.jpg').default%>" alt="" class="content-list__card-image">
+                                <img src="<%=require('../images/defalt_images/image_06.jpg').default%>" alt="Картинка на тему новости" class="content-list__card-image">
                                 <p class="content-list__data">2 августа, 2019</p>
                                 <div class="content-list__item">
                                     <h4 class="content-list__item-title">Национальное достояние – парки</h4>
@@ -105,7 +105,7 @@
                         
                         <div class="content-list__card">
                             <a href="https://meduza.io" target="_blank" class="content-list__card-link">
-                                <img src="<%=require('../src/images/defalt_images/image_01.jpg').default%>" alt="" class="content-list__card-image">
+                                <img src="<%=require('../images/defalt_images/image_01.jpg').default%>" alt="Картинка на тему новости" class="content-list__card-image">
                                 <p class="content-list__data">2 августа, 2019</p>
                                 <div class="content-list__item">
                                     <h4 class="content-list__item-title">Лесные огоньки: история одной фотографии</h4>
@@ -117,7 +117,7 @@
 
                         <div class="content-list__card">
                             <a href="https://ria.ru" target="_blank" class="content-list__card-link">
-                                <img src="<%=require('../src/images/defalt_images/image_05.jpg').default%>" alt="" class="content-list__card-image">
+                                <img src="<%=require('../images/defalt_images/image_05.jpg').default%>" alt="Картинка на тему новости" class="content-list__card-image">
                                 <p class="content-list__data">2 августа, 2019</p>
                                 <div class="content-list__item">
                                     <h4 class="content-list__item-title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h4>
@@ -132,7 +132,7 @@
             </section>
 
             <section class="author">
-                <img src="<%=require('../src/images/author_image.jpg').default%>" alt="Фото автора" class="author__photo">
+                <img src="<%=require('../images/author_image.jpg').default%>" alt="Фото автора" class="author__photo">
                 <div class="author-item">
                     <h3 class="author-item__title">Об авторе</h3>
                     <p class="author-item__text">Это блок с описаением автора проекта. Здесь следует указать, как вас зовут, чем вы занимаетесь, какими технологиями разработки владете.</p>
@@ -144,16 +144,16 @@
         <footer class="footer">
             <p class="footer__author">&copy; 2019 Тюренков Максим</p>
             <div class="footer-links">
-                <a href="<%=htmlWebpackPlugin.files.chunks.index.html%>" target="_blank" class="footer-links__name">Главная</a>
-                <a href="../src/pages/about.html" target="_blank" class="footer-links__name">О проекте</a>
+                <a href="./index.html" class="footer-links__name">Главная</a>
+                <a href="./about.html" class="footer-links__name">О проекте</a>
                 <a href="https://praktikum.yandex.ru/" target="_blank" class="footer-links__name">Яндекс.Практикум</a>
             </div>
             <div class="footer-social">
-                <a href="https://github.com/Mturin" class="footer-social__icon" target="_blank"><img src="<%=require('../src/images/social-icon_gh.svg').default%>" alt="Иконка аккаунта в Github"></a>
-                <a href="https://www.facebook.com/profile.php?id=100022727566053&ref=bookmarks" class="footer-social__icon" target="_blank"><img src="<%=require('../src/images/social-icon_fb.svg').default%>"  alt="Иконка аккаунта в Facebook"></a>
+                <a href="https://github.com/Mturin" class="footer-social__icon" target="_blank"><img src="<%=require('../images/social-icon_gh.svg').default%>" alt="Иконка аккаунта в Github"></a>
+                <a href="https://www.facebook.com/profile.php?id=100022727566053&ref=bookmarks" class="footer-social__icon" target="_blank"><img src="<%=require('../images/social-icon_fb.svg').default%>"  alt="Иконка аккаунта в Facebook"></a>
             </div>
         </footer>
     </div>
-<script src='<%=htmlWebpackPlugin.files.chunks.index.entry%>'></script>     
+<script src='<%=htmlWebpackPlugin.files.chunks.index.entry%>'></script>  
 </body>
 </html>

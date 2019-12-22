@@ -1,0 +1,21 @@
+.analytics-info__title {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 46px;
+    margin: 80px 0 24px;
+}
+
+@media all and (max-width: 768px) {
+    .analytics-info__title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .analytics-info__title {
+        font-size: 30px;
+        line-height: 34px;
+        margin: 0 0 16px;
+    }
+}

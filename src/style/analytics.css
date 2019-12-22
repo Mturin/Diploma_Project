@@ -1,0 +1,16 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+@import url(./general-style.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header-menu/header-menu.css);
+@import url(../blocks/analytics-info/analytics-info.css);
+@import url(../blocks/analytics-info-sum/analytics-info-sum.css);
+@import url(../blocks/analytics-result/analytics-result.css);
+@import url(../blocks/analytics-result-subtitle/analytics-result-subtitle.css);
+@import url(../blocks/analytics-result-info/analytics-result-info.css);
+@import url(../blocks/analytics-result-info-day/analytics-result-info-day.css);
+@import url(../blocks/analytics-result-scale/analytics-result-scale.css);
+@import url(../blocks/analytics-result-info-total/analytics-result-info-total.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer-links/footer-links.css);
+@import url(../blocks/footer-social/footer-social.css);

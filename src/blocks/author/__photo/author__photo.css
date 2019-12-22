@@ -6,7 +6,7 @@
 
 @media all and (max-width: 1024px) {
     .author__photo {
-        margin: 40px 32px 0 40px;
+        margin: 40px 32px 40px;
     }
 }
 
