@@ -1,0 +1,35 @@
+.header-menu__name {
+    padding-bottom: 24px;
+    margin-right: 38px;
+    color: #B6BCBF;
+}
+.header-menu__name:last-of-type {
+    margin-right: 0;
+}
+
+.header-menu__name:hover {
+    color: #1A1B22;
+}
+
+.header-menu__name_active {
+    border-bottom: 2px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.header-menu__name_active-black {
+    border-bottom: 2px solid #1A1B22;
+    color: #1A1B22;
+}
+
+@media all and (max-width: 768px) {
+    .header-menu__name {
+        padding-bottom: 18px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .header-menu__name {
+        padding-bottom: 16px;
+        margin-right: 14px;
+    }
+}

@@ -1,0 +1,8 @@
+.commit-slider__card {
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    min-width: 320px;
+    min-height: 230px;
+    margin-right: 16px;
+    padding: 24px 24px;
+}

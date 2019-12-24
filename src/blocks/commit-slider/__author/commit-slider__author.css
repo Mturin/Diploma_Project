@@ -1,0 +1,5 @@
+.commit-slider__author{
+    margin: 16px 0;
+    display: flex;
+    justify-content: flex-start;
+}

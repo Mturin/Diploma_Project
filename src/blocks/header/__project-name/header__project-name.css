@@ -1,0 +1,25 @@
+.header__project-name {
+    font-size: 1.25em;
+    font-weight: 900;
+    margin: 0 0 0 104px;
+    letter-spacing: 0.05em;
+}
+
+@media all and (max-width: 1024px) {
+    .header__project-name {
+        margin: 0 0 0 80px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .header__project-name {
+        margin: 0 0 0 40px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .header__project-name {
+        font-size: 1em;
+        margin: 0 0 0 16px;
+    }
+}

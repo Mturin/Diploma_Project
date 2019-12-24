@@ -1,0 +1,27 @@
+@import url('./__item-name/tech-list__item-name.css');
+@import url('./__item-logo/tech-list__item-logo.css');
+
+.tech-list__item {
+    margin-right: 70px;
+}
+
+.tech-list__item:last-of-type {
+    margin-right: 0;
+}
+
+@media all and (max-width: 900px) {
+    .tech-list__item {
+        margin-right: 60px;
+    }
+}
+
+@media all and (max-width: 715px) {
+    .tech-list__item {
+        margin-right: 32px;
+        margin-bottom: 32px;
+   
+}
+    .tech-list__item:last-of-type {
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,21 @@
+.content-list__item-title {
+    font-family: 'Roboto Slab';
+    margin: 0 auto 16px;
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+@media all and (max-width: 1024px) {
+    .content-list__item-title {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .content-list__item-title {
+        font-size: 20px;
+        margin-left: 0;
+    }
+}

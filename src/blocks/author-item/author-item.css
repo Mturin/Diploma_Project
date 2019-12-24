@@ -1,0 +1,28 @@
+@import url('./__title/author-item__title.css');
+@import url('./__text/author-item__text.css');
+
+.author-item {
+    max-width: 40%;
+    margin: 131px 216px 80px 0;
+}
+
+@media all and (max-width: 1024px) {
+    .author-item {
+        max-width: 60%;
+        margin: 40px 40px 0 0;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .author-item {
+        max-width: 60%;
+        margin: 40px 40px 0 0;
+    }
+}
+
+@media all and (max-width: 550px) {
+    .author-item {
+        max-width: 100%;
+        margin: 24px 16px 0;
+    }
+}

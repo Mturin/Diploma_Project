@@ -1,0 +1,17 @@
+@import url('./__value/analytics-result-info-day__value.css');
+
+.analytics-result-info-day{
+    width: 13%;
+}
+
+@media all and (max-width: 768px) {
+    .analytics-result-info-day{
+        width: 20%;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .analytics-result-info-day{
+        width: 30%;
+    }
+}

@@ -1,0 +1,12 @@
+.tech-list__item-name{
+    margin: 0;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    text-align: center;
+} 
+
+@media all and (max-width: 715px) {
+    .tech-list__item-name{
+        max-width: 120px;
+    } 
+}

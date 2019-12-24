@@ -1,0 +1,9 @@
+.search-not-found__text{
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 80px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #B6BCBF;
+    max-width: 60%;
+}

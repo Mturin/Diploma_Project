@@ -1,0 +1,22 @@
+.content-list__source{
+    margin: 18px 24px 24px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    color: #B6BCBF;
+}
+
+@media all and (max-width: 1024px) {
+    .content-list__item-source{
+        margin: 12px 16px 16px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .content-list__item-source {
+        margin-left: 20px;
+    }
+}

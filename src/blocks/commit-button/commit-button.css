@@ -1,0 +1,20 @@
+.commit-button {
+    display: none;
+    width: calc(100% - (16px*2));
+    height: 56px;
+    border: 0;
+    border-radius: 100px;
+    background-color:  #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    cursor: url("~../../images/cursor_hand.cur"), auto;
+    margin: 24px 0 0 16px;
+}
+
+@media all and (max-width: 580px) {
+    .commit-button {
+        display: block;
+    }
+}

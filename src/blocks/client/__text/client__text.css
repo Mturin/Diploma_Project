@@ -1,0 +1,15 @@
+.client__text {
+    margin: 0;
+    padding-top: 24px;
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 60%;
+}
+
+@media all and (max-width: 1024px) {
+    .client__text {
+        margin: 0;
+        padding-top: 16px;
+        max-width: 100%;
+    } 
+}

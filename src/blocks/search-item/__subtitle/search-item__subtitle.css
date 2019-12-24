@@ -1,0 +1,12 @@
+.search-item__subtitle {
+    margin: 32px 0 0;
+    font-size: 1.15em;
+    font-weight: 400;              
+}
+
+@media all and (max-width: 768px) {
+    .search-item__subtitle {
+        font-size: 16px;
+        font-weight: 400;            
+    }
+}

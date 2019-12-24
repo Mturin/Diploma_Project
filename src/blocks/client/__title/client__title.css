@@ -1,0 +1,12 @@
+.client__title {
+    margin: 0;
+    font-size: 40px;
+    line-height: 46px;
+}
+
+@media all and (max-width: 1024px) {
+    .client__title {
+        font-size: 30px;
+        line-height: 34px;
+    }
+}

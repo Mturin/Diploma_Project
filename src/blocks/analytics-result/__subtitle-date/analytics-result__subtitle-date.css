@@ -1,0 +1,17 @@
+.analytics-result__subtitle-date{
+    width: 12%;
+}
+
+@media all and (max-width: 768px) {
+    .analytics-result__subtitle-date{
+        width: 17%;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .analytics-result__subtitle-date{
+        width: 23%;
+    }
+}
+
+

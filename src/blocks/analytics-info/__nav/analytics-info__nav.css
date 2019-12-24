@@ -1,0 +1,13 @@
+@import url('./_grey/analytics-info__nav_grey.css');
+
+.analytics-info__nav {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0;
+}
+
+@media all and (max-width: 500px) {
+    .analytics-info__nav {
+        display: none;
+    }
+}

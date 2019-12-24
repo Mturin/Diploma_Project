@@ -1,0 +1,7 @@
+@import url('./_grey/commit-slider__card-text_grey.css');
+
+.commit-slider__card-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+}

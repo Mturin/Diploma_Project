@@ -1,0 +1,33 @@
+@import url('./__title/search-item__title.css');
+@import url('./__subtitle/search-item__subtitle.css');
+
+.search-item {
+    position: relative;
+    margin: 80px auto 0;
+    max-width: 35%;
+    z-index: 1;
+}
+
+@media all and (max-width: 1300px) {
+    .search-item {
+        max-width: 45%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .search-item {
+        max-width: 49%;
+    }
+}
+
+@media all and (max-width: 670px) {
+    .search-item {
+        margin-top: 30px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .search-item {
+        max-width: 75%;
+    }
+}    

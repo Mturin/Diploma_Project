@@ -1,0 +1,33 @@
+@import url('./__card/commit-slider__card.css');
+@import url('./__card-link/commit-slider__card-link.css');
+@import url('./__card-data/commit-slider__card-data.css');
+@import url('./__author/commit-slider__author.css');
+@import url('./__author-photo/commit-slider__author-photo.css');
+@import url('./__authorInfo/commit-slider__authorInfo.css');
+@import url('./__authorInfo-name/commit-slider__authorInfo-name.css');
+@import url('./__authorInfo-mail/commit-slider__authorInfo-mail.css');
+@import url('./__card-text/commit-slider__card-text.css');
+
+.commit-slider {
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    /* background: linear-gradient(45deg, #EECFBA, #C5DDE8); */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

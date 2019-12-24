@@ -1,0 +1,20 @@
+@import url('./__title/commit-text__title.css');
+@import url('./__subtitle/commit-text__subtitle.css');
+
+.commit-text {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 104px 64px;
+}
+
+@media all and (max-width: 1024px) {
+    .commit-text {
+        margin: 0 40px 64px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .commit-text {
+        margin-bottom: 32px;
+    }
+}

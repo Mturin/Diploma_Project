@@ -1,0 +1,20 @@
+.search-content__text-subtitle {
+    color: #1A1B22;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 14px 10px 0 0;
+}
+
+@media all and (max-width: 1024px) {
+    .search-content__text-subtitle {
+        font-size: 18px;
+        margin-right: 20px;
+    }
+}
+
+@media all and (max-width: 700px) {
+    .search-content__text-subtitle {
+        font-size: 18px;
+    }
+}

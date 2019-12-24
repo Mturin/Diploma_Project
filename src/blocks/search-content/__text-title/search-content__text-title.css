@@ -1,0 +1,19 @@
+.search-content__text-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 46px;
+    margin: 0;
+}
+
+@media all and (max-width: 1024px) {
+    .search-content__text-title {
+        font-size: 30px;
+    }
+}
+
+@media all and (max-width: 700px) {
+    .search-content__text-title {
+        font-size: 40px;
+    }
+}

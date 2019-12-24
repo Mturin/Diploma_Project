@@ -1,0 +1,29 @@
+.search-form__input {
+    border-radius: 100px;
+    width: 80%;
+    height: 60px;
+    border: 0;
+    margin: 0 0 0 20px;
+    line-height: 22px;
+    padding-left: 24px;
+    caret-color: #2F71E5;           
+}
+
+@media all and (max-width: 768px) {
+    .search-form__input {
+        height: 56px;
+    }
+}
+
+@media all and (max-width: 670px) {
+    .search-form__input {
+        width: 80%;               
+    }
+}
+
+@media all and (max-width: 500px) {
+    .search-form__input {
+        width: 90%;
+        margin: 0;               
+    }
+}

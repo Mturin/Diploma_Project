@@ -1,0 +1,24 @@
+@import url('./__title/analytics-result__title.css');
+@import url('./__subtitle/analytics-result__subtitle.css');
+@import url('./__subtitle-date/analytics-result__subtitle-date.css');
+@import url('./__subtitle-date-day/analytics-result__subtitle-date-day.css');
+@import url('./__subtitle-date-month/analytics-result__subtitle-date-month.css');
+@import url('./__sum/analytics-result__sum.css');
+
+.analytics-result {
+    background-color: #F5F6F7;
+    margin: 0;
+    padding: 80px 104px;
+}
+
+@media all and (max-width: 768px) {
+    .analytics-result {
+        padding: 40px 40px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .analytics-result {
+        padding: 16px 16px;
+    }
+}

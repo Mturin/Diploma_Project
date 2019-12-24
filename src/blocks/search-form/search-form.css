@@ -1,0 +1,41 @@
+@import url('./__input/search-form__input.css');
+@import url('./__button/search-form__button.css');
+
+.search-form{
+    position: relative;
+    margin: 62px auto 80px;
+    max-width: 38%;
+    z-index: 1;
+}
+
+@media all and (max-width: 1300px) {
+    .search-form{
+        max-width: 50%;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .search-form{
+        margin-bottom: 55px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .search-form{
+        max-width: 55%;
+    }
+}
+
+@media all and (max-width: 670px) {
+    .search-form{
+        display: flex;
+        flex-direction: column;
+        margin: 24px auto 32px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .search-form{
+        max-width: 75%;
+    }
+}

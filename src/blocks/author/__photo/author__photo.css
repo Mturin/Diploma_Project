@@ -1,0 +1,26 @@
+.author__photo {
+    max-width: 30%;
+    margin: 80px 56px 80px 104px;
+    max-height: 30%;
+}
+
+@media all and (max-width: 1024px) {
+    .author__photo {
+        margin: 40px 32px 40px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .author__photo {
+        max-width: 232px;
+        max-height: 232px;
+    }
+}
+
+@media all and (max-width: 550px) {
+    .author__photo {
+        max-width: 272px;
+        max-height: 272px;
+        margin: 20px auto 0;
+    }
+}

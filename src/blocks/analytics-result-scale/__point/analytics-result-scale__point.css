@@ -1,0 +1,12 @@
+.analytics-result-scale__point{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+@media all and (max-width: 500px) {
+    .analytics-result-scale__point {
+        display: none;
+    }
+}

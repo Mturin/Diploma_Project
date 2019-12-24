@@ -1,0 +1,10 @@
+@import url('./__value/analytics-result-info-total__value.css');
+.analytics-result-info-total{
+    margin: 0;
+}
+
+@media all and (max-width: 500px) {
+    .analytics-result-info-total {
+        margin-top: 20px;
+    }
+}

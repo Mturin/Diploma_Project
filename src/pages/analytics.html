@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.analytics.css%>">
+    <link rel="icon" href="<%=require('../images/favicon_a_blue.png').default%>">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Тюренков Максим">
+    <meta name="description" content="Дипломная работа Яндекс практикум, специальность Фронтенд, группа № 4">
+    <meta name="keywords" content="yandex-praktikum, HTML, CSS, JS, Webpack">
+    <title>NewsAnalizer - Аналитика</title>
+</head>
+
+<body>
+    <div class="page">
+        <header class="header header_black">
+            <p class="header__project-name">NewsAnalyzer</p>
+            <div class="header-menu">
+                <a href="./index.html" class="header-menu__name">Главная</a>
+                <a href="./about.html" class="header-menu__name">О проекте</a>
+            </div>
+        </header>
+        <main class="content">
+
+            <section class="analytics-info">
+                <h4 class="analytics-info__nav"> Главная <span class="analytics-info__nav_grey">/ Аналитика</span></h4>
+                <h1 class="analytics-info__title">Вы спросили: «Путешествия»</h1>
+                <div class="analytics-info-sum">
+                    <h2 class="analytics-info-sum__week">Новостей за неделю:<span class="analytics-info__sum-week_bold"> 34 324</span></h2>
+                    <h2 class="analytics-info-sum__title">Упоминаний в загаловках:<span class="analytics-info__sum-week_bold"> 235</span></h2>
+                </div>
+            </section>
+
+            <section class="analytics-result">
+                <h3 class="analytics-result__title">Аналитика по дням</h3>
+                <div class="analytics-result__subtitle">
+                    <div class="analytics-result__subtitle-date">
+                        <p class="analytics-result__subtitle-date-day">ДАТА</p>
+                        <p class="analytics-result__subtitle-date-month">(август)</p>
+                    </div>
+                    <p class="analytics-result__sum">КОЛ-ВО УПОМИНАНИЙ</p>
+                </div>
+                <div class="analytics-result-info">
+                    <div class="analytics-result-info-day">
+                        <p class="analytics-result-info-day__value">19, пн</p>
+                        <p class="analytics-result-info-day__value">20, вт</p>
+                        <p class="analytics-result-info-day__value">21, ср</p>
+                        <p class="analytics-result-info-day__value">22, чт</p>
+                        <p class="analytics-result-info-day__value">23, пт</p>
+                        <p class="analytics-result-info-day__value">24, сб</p>
+                        <p class="analytics-result-info-day__value">25, вс</p>
+                    </div>
+                    <div class="analytics-result-scale">
+                        <div class="analytics-result-scale__point">
+                            <p class="analytics-result-scale__point-value">0</p>
+                            <p class="analytics-result-scale__point-value">25</p>
+                            <p class="analytics-result-scale__point-value">50</p>
+                            <p class="analytics-result-scale__point-value">75</p>
+                            <p class="analytics-result-scale__point-value">100</p>
+                        </div>
+                    
+                        
+                        <div class="analytics-result-info-total">
+                            <p class="analytics-result-info-total__value">15</p>
+                            <p class="analytics-result-info-total__value">18</p>
+                            <p class="analytics-result-info-total__value">11</p>
+                            <p class="analytics-result-info-total__value">39</p>
+                            <p class="analytics-result-info-total__value">45</p>
+                            <p class="analytics-result-info-total__value">73</p>
+                            <p class="analytics-result-info-total__value">34</p>
+                        </div>
+
+                        <div class="analytics-result-scale__point">
+                            <p class="analytics-result-scale__point-value">0</p>
+                            <p class="analytics-result-scale__point-value">25</p>
+                            <p class="analytics-result-scale__point-value">50</p>
+                            <p class="analytics-result-scale__point-value">75</p>
+                            <p class="analytics-result-scale__point-value">100</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p class="footer__author">&copy; 2019 Тюренков Максим</p>
+            <div class="footer-links">
+                <a href="./index.html" class="footer-links__name">Главная</a>
+                <a href="./about.html" class="footer-links__name">О проекте</a>
+                <a href="https://praktikum.yandex.ru/" class="footer-links__name">Яндекс.Практикум</a>
+            </div>
+            <div class="footer-social">
+                <a href="https://github.com/Mturin" class="footer-social__icon" target="_blank"><img src="<%=require('../images/social-icon_gh.svg').default%>" alt="Иконка аккаунта в Github"></a>
+                <a href="https://www.facebook.com/profile.php?id=100022727566053&ref=bookmarks" class="footer-social__icon" target="_blank"><img src="<%=require('../images/social-icon_fb.svg').default%>"  alt="Иконка аккаунта в Facebook"></a>
+            </div>
+        </footer>
+    </div>
+<script src='<%=htmlWebpackPlugin.files.chunks.analytics.entry%>'></script>  
+</body>
+</html>

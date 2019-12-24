@@ -1,0 +1,16 @@
+@import url('./__icon/footer-social__icon.css');
+
+.footer-social {
+    display: flex;
+    justify-content: space-between;
+    margin: 33px 0 25px
+}
+
+@media all and (max-width: 700px) {
+    .footer-social {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: block;
+    }
+}

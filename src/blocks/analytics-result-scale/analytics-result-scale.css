@@ -1,0 +1,11 @@
+@import url('./__point/analytics-result-scale__point.css');
+@import url('./__point-value/analytics-result-scale__point-value.css');
+
+
+.analytics-result-scale{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+}

@@ -1,0 +1,28 @@
+@import url('./__text/search-content__text.css');
+@import url('./__text-title/search-content__text-title.css');
+@import url('./__text-subtitle/search-content__text-subtitle.css');
+@import url('./__button/search-content__button.css');
+
+.search-content {
+    background-color: #F5F6F7;
+    margin: 0 auto;
+    padding: 80px 104px;
+}
+
+@media all and (max-width: 1024px) {
+    .search-content {
+        padding: 40px 40px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .search-content {
+        padding-top: 76px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .search-content {
+        padding: 50px 16px;
+    }
+}

@@ -1,0 +1,12 @@
+@import url('./__logo/search-not-found__logo.css');
+@import url('./__title/search-not-found__title.css');
+@import url('./__text/search-not-found__text.css');
+
+.search-not-found{
+    display: none;
+    background-color: #F5F6F7;
+  }
+
+.search-not-found_active{
+    display: block;
+}

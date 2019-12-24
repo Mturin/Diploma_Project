@@ -1,0 +1,19 @@
+.footer-links__name {
+    padding-right: 48px;
+    color: #1A1B22;
+}
+.footer-links__name:last-of-type {
+    padding: 0;
+}
+
+@media all and (max-width: 1024px) {
+    .footer-links__name {
+        padding-right: 25px;
+    }
+}
+
+@media all and (max-width: 700px) {
+    .footer-links__name {
+        padding-bottom: 25px;
+    }
+}
