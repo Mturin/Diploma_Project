@@ -1,3 +1,4 @@
+
 body {
     background-color:#E5E5E5;
     background-size: cover;
@@ -15,7 +16,7 @@ a:hover {
     max-width: 1440px;
     background-color:#FFFFFF;
     margin: 0 auto;
-    font-family: 'Roboto', 'Roboto Slab'; /*, 'sans-serif', 'Arial' */
+    font-family: 'Roboto', 'Roboto Slab', 'sans-serif', 'Arial';
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;

@@ -2,6 +2,7 @@
 @import url(../header/__project-name/header__project-name.css);
 
 .header {
+    font-family: 'Roboto Slab', 'sans-serif', 'Arial';
     position: relative;
     color: #FFFFFF;
     display: flex;
